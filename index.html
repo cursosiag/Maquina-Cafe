@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Máquina de Café - Cursos IAG</title>
+    
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+      
+    <nav class="navbar navbar-default">
+        
+        <div class="container">
+            
+            <div class="text-center">
+                
+                <a href=""><i class="fa fa-coffee"></i></a>
+                
+            </div><!-- /text-center -->
+            
+        </div><!-- /container -->
+    
+    </nav>
+    
+    <div class="container">
+       
+        <div class="row">
+            
+            <div class="col-lg-8">
+                
+                <div id="show-name">
+            
+                    <h1 class="text-center">Quem vai fazer o café?</h1>
+
+                </div><!-- /show-name -->
+
+                <div class="text-center show">
+
+                    <a href="#" class="btn btn-success btn-lg" id="raffle-start">Vamos descobrir!</a>
+                    <button class="btn btn-info btn-lg" id="raffle-refresh" onclick="reloadPage();"><i class="fa fa-refresh fa-spin"></i> Recomeçar</button>
+
+                </div><!-- /text-center -->
+                
+            </div><!-- /col-lg-8 -->
+            
+            <div class="col-lg-4">
+                
+                <h1 class="text-center">Sorteados</h1>
+                
+                <ul class="list-group"></ul>
+                
+            </div><!-- /col-lg-4 -->
+            
+        </div><!-- /row -->
+                
+    </div><!-- /container -->
+    
+    <footer>
+        
+        <div class="container">
+            
+            <hr/>
+            
+            <p class="text-center">&copy; Cursos IAG</p>
+            
+        </div><!-- /container -->
+        
+    </footer>
+   
+   	<!-- jquery -->
+   	<script type="text/javascript" src="js/plugins/jquery/jquery-1.4.4.js"></script>
+    
+    <!--  raffle js -->
+    <script type="text/javascript" src="js/plugins/raffle/raffle.js"></script>
+    
+</body>
+</html>

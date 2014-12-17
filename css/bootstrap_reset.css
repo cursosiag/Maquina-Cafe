@@ -1,0 +1,23 @@
+/*
+ * Máquina de Café - 1.0
+ * Documento para Resetar Estilos do Bootstrap
+ * Criado por: Davi Oliveira (Cursos IAG - http://cursosiag.com.br)
+*/
+
+/* navbar */
+.navbar {
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar a {
+    text-align: center;
+    line-height: 42px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.navbar-default {
+    background-color: #655147;
+    color: #ffffff;
+}
